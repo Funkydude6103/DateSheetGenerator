@@ -1,6 +1,3 @@
-Here’s a `README.md` for your project:
-
-```markdown
 # Date Sheet Generator
 
 This is a simple desktop application built using Python's `tkinter` library, which allows users to upload a date sheet, search for courses, select them, and generate a date sheet in HTML format. The application also provides the option to save the generated date sheet.
@@ -33,11 +30,8 @@ pip install pandas imgkit
 
 ## Demo
 To see the app in action, watch the demo video below:
-
 ![Demo Video](demo.mp4)
 
 ## License
 This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
-Make sure the `demo.mp4` video file is placed in the root directory of your project, as referenced in the README.
