@@ -13,13 +13,8 @@ This is a simple desktop application built using Python's `tkinter` library, whi
 - Python 3.x
 - `tkinter` (comes pre-installed with Python)
 - `pandas` (for handling Excel files)
-- `imgkit` (for converting HTML to image, if required)
 
 To install the required dependencies, you can run:
-
-```bash
-pip install pandas imgkit
-```
 
 ## How to Use
 1. **Upload Date Sheet**: Click on the "Upload Date Sheet" button to select an Excel file containing the course schedule.
