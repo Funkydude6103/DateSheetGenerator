@@ -30,9 +30,11 @@ pip install pandas imgkit
 
 ## Demo
 To see the app in action, watch the demo video below:
-![Demo Video](demo.mp4)
-<video width="600" controls>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-[Demo Video](demo.mp4)
+<div style="display: flex; justify-content: center; align-items: center;">
+    <video class="as" src="https://github.com/user-attachments/assets/254f9995-6bd8-4b4e-9679-ab9bd649c162" controls="controls" style="max-width: 100%;">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+
+
