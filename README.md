@@ -35,3 +35,4 @@ To see the app in action, watch the demo video below:
   <source src="demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+[Demo Video](demo.mp4)
