@@ -1,4 +1,5 @@
 import tkinter as tk
+from datetime import datetime
 from tkinter import ttk, filedialog, messagebox
 import pandas as pd
 import webbrowser
@@ -107,8 +108,10 @@ class DateSheetApp:
         <table border="1" style="width:100%; border-collapse: collapse; text-align: left;">
         <tr><th>Day</th><th>Date</th><th>Time</th><th>Code</th><th>Course Name</th></tr>
         """
-
-        for course in self.selected_courses:
+        # Sort selected courses by date
+        sorted_courses = sorted(self.selected_courses, key=lambda course: datetime.strptime(
+            self.data[self.data['Code'].str.contains(course.split(' - ')[0], case=False)].iloc[0]['Date'], "%d-%b-%Y"))
+        for course in sorted_courses:
             course_details = self.data[self.data['Code'].str.contains(course.split(' - ')[0], case=False)].iloc[0]
             html_content += f"<tr><td>{course_details['Day']}</td><td>{course_details['Date']}</td><td>{course_details['Time']}</td><td>{course_details['Code']}</td><td>{course_details['Course Name']}</td></tr>"
 
