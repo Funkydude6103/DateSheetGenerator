@@ -1,4 +1,4 @@
-# Date Sheet Generator
+# FAST NUCES Date Sheet Generator
 
 This is a simple desktop application built using Python's `tkinter` library, which allows users to upload a date sheet, search for courses, select them, and generate a date sheet in HTML format. The application also provides the option to save the generated date sheet.
 
