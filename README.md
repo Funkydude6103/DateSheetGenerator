@@ -32,6 +32,3 @@ pip install pandas imgkit
 To see the app in action, watch the demo video below:
 ![Demo Video](demo.mp4)
 
-## License
-This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
